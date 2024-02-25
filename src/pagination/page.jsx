@@ -57,12 +57,14 @@ export default function Pagination() {
         </tr>
         {dispData.map((ele) => {
           return (
-            <tr>
-              <td>{ele.id}</td>
-              <td>{ele.name}</td>
-              <td>{ele.email}</td>
-              <td>{ele.role}</td>
-            </tr>
+            <tbody>
+              <tr>
+                <td>{ele.id}</td>
+                <td>{ele.name}</td>
+                <td>{ele.email}</td>
+                <td>{ele.role}</td>
+              </tr>
+            </tbody>
           );
         })}
       </table>
