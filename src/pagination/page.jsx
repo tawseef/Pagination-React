@@ -17,7 +17,7 @@ export default function Pagination() {
         );
         setFullData(res.data);
       } catch (e) {
-        console.log(e);
+        alert("failed to fetch data");
       }
     };
     getData();
